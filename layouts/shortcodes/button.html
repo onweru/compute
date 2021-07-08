@@ -1,5 +1,0 @@
-{{- $link := .Get 0 }}
-{{- $label := .Get 1 }}
-{{- $modifiers := .Get 2 }}
-{{ $attributes := .Get 3 }}
-<a href="{{ $link }}" class="snip snip_{{ $modifiers }}"{{ with $attributes }} {{ . }}{{ else }} target="_blank" rel="noopener"{{ end }}>{{ $label }}</a>

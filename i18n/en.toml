@@ -1,4 +1,0 @@
-[success_message]
-  other = "Thank you for contacting Computech. You'll hear from us soon."
-[error_message]
-  other = "<a href = 'mailto:marketing@computechlimited.com'<u>Contact us</u></a> directly and we'll get you set up in no time."

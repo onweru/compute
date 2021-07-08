@@ -1,9 +1,0 @@
-<div class = 'grid-4 text_center mb-4'>
-  {{- range $index, $item := $.Page.Params.items -}}
-  <a href = '/products-services/cyber-security/{{ if le $index 2 }}{{ urlize (lower $item.card) }}/{{ end }}'>
-    <img src = '/images/{{ $item.thumb }}' class = 'thumb' alt = '{{ $item.card }}'>
-    <h4>{{ $item.card }}</h4>
-  </a>
-  {{- end -}}
-</div>
-{{ partial "form" . }}      
